@@ -10,7 +10,7 @@ data class Meter(
     @SerializedName("mp_name")
     val mp_name: String,
     @SerializedName(value = "meter_id")
-    val meter_id: Double,
+    val meter_id: String,
     @SerializedName("meter_type")
     val meter_type: String,
     @SerializedName("comm_mod_type")
